@@ -7,7 +7,7 @@ Create Windows-like 🪟 message boxes 💬 for your website
 # jsDelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@main/src/windowsMessageBox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/SkwalExe/windowsMessageBox.js@main/src/windowsMessageBox.min.js"></script>
 ```
 
 # Example
