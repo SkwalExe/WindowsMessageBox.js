@@ -162,7 +162,21 @@ let windowsMessageBox = {
                 }
             })
 
+            messageBox.setAttribute("tabindex", "0");
+            messageBox.style.outline = "none"
+            messageBox.onkeydown = function(event) {
+                console.log("df")
+                if (event.key == "Enter") {
+                    remove(messageBox);
+                    resolve(false);
+                    // focus previous messagebox
+                    if (el = document.querySelectorAll(".windowsMessageBox")[document.querySelectorAll(".windowsMessageBox").length - 1])
+                        el.focus()
+                }
+            }
             document.body.appendChild(messageBox);
+            messageBox.focus();
+
         });
     }
 }
