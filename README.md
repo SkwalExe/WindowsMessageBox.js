@@ -7,7 +7,7 @@ Create Windows-like 🪟 message boxes 💬 for your website
 # jsDelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/SkwalExe/windowsMessageBox.js@main/src/windowsMessageBox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/SkwalExe/windowsMessageBox.js@main/dist/windowsMessageBox.min.js"></script>
 ```
 
 # Example
@@ -132,6 +132,44 @@ If you have any problem, don't hesitate to open an issue
 
 # contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+1. Start by [**forking** this repository](https://github.com/SkwalExe/windowsMessageBox.js/fork)
+
+2. Then clone your fork to your local machine.
+  ```git
+  git clone https://github.com/your-username/windowsMessageBox.js.git
+  ```
+
+3. Install dev dependencies
+    ```npm
+    npm install --save-dev
+    ```
+
+4. Create a new branch
+  ```git
+  git checkout -b super-cool-feature
+  ```
+
+5. Then make your changes
+
+6. Update the changelog and version number if needed
+
+7. Update the minified/browser version of the library
+  ```bash
+  npm run build
+  ```
+
+8. Once you're done, commit your changes and push them to the remote repository.
+  ```git
+  git add --all
+  git commit -m "Add super-cool-feature"
+  git push origin super-cool-feature
+  ```
+
+9. Then, open a pull request on GitHub from your fork.
+   1. Go to [this link](https://github.com/SkwalExe/windowsMessageBox.js/compare/)
+   2. Click compare across forks
+   3. On the right, on `head repository` select your fork
+   4. And on `compare` select the branch you just created
+   5. Click on `Create Pull Request` and submit your pull request
 
 <a href="https://github.com/SkwalExe#ukraine"><img src="https://raw.githubusercontent.com/SkwalExe/SkwalExe/main/ukraine.jpg" width="100%" height="15px" /></a>
