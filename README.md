@@ -7,8 +7,12 @@ Create Windows-like 🪟 message boxes 💬 for your website
 # jsDelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.2.1/dist/windowsMessageBox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.3.0/dist/windowsMessageBox.min.js"></script>
 ```
+
+# Warning 🚨
+
+Versions below `v0.3.0` contains a lot of errors and are not properly working, consider using `v0.3.0` or higher, the function names are the same and you don't need to change your code.
 
 # Example
 
@@ -140,9 +144,9 @@ If you have any problem, don't hesitate to open an issue
   ```
 
 3. Install dev dependencies
-    ```npm
-    npm install --save-dev
-    ```
+  ```npm
+  npm install --save-dev
+   ```
 
 4. Create a new branch
   ```git
@@ -153,19 +157,24 @@ If you have any problem, don't hesitate to open an issue
 
 6. Update the changelog and version number if needed
 
-7. Update the minified/browser version of the library
+7. List and correct linting errors
+  ```bash
+  npm run lint
+  ```
+
+8. Update the minified/browser version of the library
   ```bash
   npm run build
   ```
 
-8. Once you're done, commit your changes and push them to the remote repository.
+9. Once you're done, commit your changes and push them to the remote repository.
   ```git
   git add --all
   git commit -m "Add super-cool-feature"
   git push origin super-cool-feature
   ```
 
-9. Then, open a pull request on GitHub from your fork.
+10. Then, open a pull request on GitHub from your fork.
    1. Go to [this link](https://github.com/SkwalExe/windowsMessageBox.js/compare/)
    2. Click compare across forks
    3. On the right, on `head repository` select your fork
