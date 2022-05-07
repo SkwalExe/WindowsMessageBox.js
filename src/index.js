@@ -178,3 +178,6 @@ let windowsMessageBox = {
     });
   }
 }
+
+if (typeof module !== 'undefined')
+  module.exports = windowsMessageBox;
