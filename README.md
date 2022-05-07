@@ -155,7 +155,17 @@ If you have any problem, don't hesitate to open an issue
 
 5. Then make your changes
 
-6. Update the changelog and version number if needed
+6. Update the changelog and version number if needed (using [Semantic Versioning](https://semver.org)) 
+  ```bash
+  # bug fix
+  npm version patch
+
+  # add a new feature 
+  npm version minor
+  
+  # changes that break backwards compatibility
+  npm version major
+  ```
 
 7. List and correct linting errors
   ```bash
