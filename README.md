@@ -170,13 +170,13 @@ If you have any problem, don't hesitate to open an issue
 6. Update the changelog and version number if needed (using [Semantic Versioning](https://semver.org)) 
   ```bash
   # bug fix
-  npm version patch
+  npm version patch --no-git-tag-version
 
   # add a new feature 
-  npm version minor
+  npm version minor --no-git-tag-version
   
   # changes that break backwards compatibility
-  npm version major
+  npm version major --no-git-tag-version
   ```
 
 7. List and correct linting errors
