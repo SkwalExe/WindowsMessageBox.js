@@ -10,6 +10,18 @@ Create Windows-like 🪟 message boxes 💬 for your website
 <script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.3.0/dist/windowsMessageBox.min.js"></script>
 ```
 
+**You can also use the npm package directly:**
+
+```bash
+npm install windowsmessagebox
+```
+
+**And use browserify:**
+
+```bash
+npx browserify my-app.js -o my-app.bundle.js
+```
+
 # Warning 🚨
 
 Versions below `v0.3.0` contains a lot of errors and are not properly working, consider using `v0.3.0` or higher, the function names are the same and you don't need to change your code.
