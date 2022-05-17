@@ -1,26 +1,37 @@
 # WindowsMessageBox.js
 
-![](images/banner.png)
-
 Create Windows-like 🪟 message boxes 💬 for your website
+
+![](assets/banner.png)
 
 # jsDelivr
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.3.0/dist/windowsMessageBox.min.js"></script>
 ```
+# NPM module 
 
-**You can also use the npm package directly:**
+Install the npm module 
 
 ```bash
 npm install windowsmessagebox
 ```
 
-**And use browserify:**
+And import it in your project 
+
+```js
+const MessageBox = require('windowsmessagebox');
+```
+
+**⚠️ You will need to bundle the package with your application (for example with browserify) because this library only works in the browser**
 
 ```bash
-npx browserify my-app.js -o my-app.bundle.js
+browserify index.js -o bundle.js
 ```
+
+# Setting up 
+
+You can import the library into you website with [JsDelivr](#JsDelivr) or, you can use the [npm module](#NPM-module) and import it in your project.
 
 # Warning 🚨
 
@@ -69,7 +80,7 @@ The title will be displayed in the top of the message box and the message will b
 windowsMessageBox.show("This is my title!", "This is my message!");
 ```
 
-![](images/1.png)
+![](assets/1.png)
 
 ### **Type**
 
@@ -85,7 +96,7 @@ The type defines the icon and the sound of the message box.
 windowsMessageBox.show("This is my title!", "This is an information message!", "info");
 ```
 
-![](images/info.png)
+![](assets/info.png)
 
 **Type -> `warning`**
 
@@ -93,7 +104,7 @@ windowsMessageBox.show("This is my title!", "This is an information message!", "
 windowsMessageBox.show("This is my title!", "This is a warning message!", "warning");
 ```
 
-![](images/warning.png)
+![](assets/warning.png)
 
 **Type -> `error`**
 
@@ -101,7 +112,7 @@ windowsMessageBox.show("This is my title!", "This is a warning message!", "warni
 windowsMessageBox.show("This is my title!", "This is an error message!", "error");
 ```
 
-![](images/error.png)
+![](assets/error.png)
 
 ### **Buttons**
 
@@ -120,7 +131,7 @@ let clicked  = windowsMessageBox.show("This is my title!", "This is my message!"
 console.log(clicked); // "Yes" if the user clicked on the "Yes" button, "No" if the user clicked on the "No" button
 ```
 
-![](images/2.png)
+![](assets/2.png)
 
 You can also define the value returned depending on the button clicked.
 
