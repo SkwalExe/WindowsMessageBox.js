@@ -33,6 +33,8 @@ browserify index.js -o bundle.js
 
 You can import the library into you website with [JsDelivr](#JsDelivr) or, you can use the [npm module](#NPM-module) and import it in your project.
 
+**You also need to import the css file to your website** => [**Download**](https://raw.githubusercontent.com/SkwalExe/WindowsMessageBox.js/main/src/style.css)
+
 # Warning 🚨
 
 Versions below `v0.3.0` contains a lot of errors and are not properly working, consider using `v0.3.0` or higher, the function names are the same and you don't need to change your code.
