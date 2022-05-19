@@ -7,7 +7,7 @@ Create Windows-like 🪟 message boxes 💬 for your website
 # jsDelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.3.0/dist/windowsMessageBox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.4.0/dist/windowsMessageBox.min.js"></script>
 ```
 # NPM module 
 
@@ -33,7 +33,11 @@ browserify index.js -o bundle.js
 
 You can import the library into you website with [JsDelivr](#JsDelivr) or, you can use the [npm module](#NPM-module) and import it in your project.
 
-**You also need to import the css file to your website** => [**Download**](https://raw.githubusercontent.com/SkwalExe/WindowsMessageBox.js/main/src/style.css)
+**You also need to import the css file to your website**
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/windowsmessagebox@0.4.0/dist/wmsgbox.min.css">
+```
 
 # Warning 🚨
 
@@ -180,7 +184,7 @@ If you have any problem, don't hesitate to open an issue
 
 5. Then make your changes
 
-6. Update the changelog and version number if needed (using [Semantic Versioning](https://semver.org)) 
+6. Update the changelog and version number if needed (using [Semantic Versioning](https://semver.org)) also, update the version number in the JsDelivr links (js and css)
   ```bash
   # bug fix
   npm version patch --no-git-tag-version

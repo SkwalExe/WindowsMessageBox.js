@@ -1,3 +1,6 @@
+# 0.4.0
+- Change project structure
+
 # 0.3.0
 - All version below `v0.3.0` are deprecated see readme
 - fix a lot of bugs
