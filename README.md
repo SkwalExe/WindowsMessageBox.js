@@ -7,7 +7,7 @@ Create Windows-like 🪟 message boxes 💬 for your website
 # jsDelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.4.0/dist/windowsMessageBox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/SkwalExe/WindowsMessageBox.js@v0.4.1/dist/windowsMessageBox.min.js"></script>
 ```
 # NPM module 
 
@@ -36,7 +36,7 @@ You can import the library into you website with [JsDelivr](#JsDelivr) or, you c
 **You also need to import the css file to your website**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/windowsmessagebox@0.4.0/dist/wmsgbox.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/windowsmessagebox@0.4.1/dist/wmsgbox.min.css">
 ```
 
 # Warning 🚨
@@ -51,17 +51,8 @@ Double click on the page to open a message box
 
 # Usage 📝
 
-This library provides 2 functions: 
-
-- `windowsMessageBox.init()`
-- `windowsMessageBox.show()`
+This library provides one function : `windowsMessageBox.show()`
   
-# windowsMessageBox.init()
-
-This function initializes the library.
-
-It will be called automatically if the library is not initialized when calling the `windowsMessageBox.show()` function.
-
 # windowsMessageBox.show()
 
 This function creates a message box.

@@ -1,3 +1,6 @@
+# 0.4.1
+- Dont import css within the js file
+
 # 0.4.0
 - Change project structure
 
