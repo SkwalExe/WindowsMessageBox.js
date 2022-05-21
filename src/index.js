@@ -1,20 +1,5 @@
 let windowsMessageBox = {
 
-  initialized: false,
-
-  init: function() {
-
-    if (this.initialized)
-      return;
-    let cssUrl = 'https://new.skwal.net/css/windowsMessageBox.css'
-    let link = document.createElement('link');
-    link.href = cssUrl;
-    link.type = 'text/css'
-    link.rel = 'stylesheet'
-    document.body.appendChild(link)
-    this.initialized = true;
-  },
-
   removeAll: function() {
     let messageBoxes = document.querySelectorAll('.windowsMessageBox');
 
@@ -26,8 +11,7 @@ let windowsMessageBox = {
   show: async function(title, message, type = 'error', buttons = [
     [ 'Ok', true ]
   ], position = null) {
-    if (!this.initialized)
-      this.init();
+
 
     if (![ 'info', 'error', 'warning' ].includes(type))
       throw new Error('Invalid message type : please use \'info\', \'error\' or \'warning\'');
